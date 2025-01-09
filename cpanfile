@@ -1,0 +1,10 @@
+requires "Net::DNS";
+requires "Net::DNS::Packet";
+requires "Net::DNS::RR";
+requires "Net::DNS::Question";
+requires "Net::Frame::Simple";
+requires "Net::Frame::Layer::ETH";
+requires "Net::Frame::Layer::IPv4";
+requires "Net::Frame::Layer::UDP";
+requires "Net::Write::Layer2";
+requires "Net::Pcap::Easy";
